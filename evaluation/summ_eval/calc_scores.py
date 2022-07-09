@@ -250,6 +250,7 @@ def cli_main():
 
     # =====================================
     # GET SCORES
+    args.aggregate = False
     if args.aggregate:
         final_output = dict()
     else:
